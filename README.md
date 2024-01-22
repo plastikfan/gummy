@@ -31,7 +31,7 @@
 
 ## 🔰 Introduction
 
-This project is a template to aid in the startup of Go cli applications.
+Test chewing gum
 
 ## 📚 Usage
 

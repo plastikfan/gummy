@@ -1,4 +1,4 @@
-module github.com/snivilised/arcadia
+module github.com/plastikfan/gummy
 
 go 1.21
 

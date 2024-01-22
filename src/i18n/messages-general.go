@@ -5,7 +5,7 @@ import (
 )
 
 type UsingConfigFileTemplData struct {
-	arcadiaTemplData
+	gummyTemplData
 	ConfigFileName string
 }
 

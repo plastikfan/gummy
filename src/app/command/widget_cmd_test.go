@@ -7,9 +7,9 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/spf13/cobra"
 
-	"github.com/snivilised/arcadia/src/app/command"
-	"github.com/snivilised/arcadia/src/i18n"
-	"github.com/snivilised/arcadia/src/internal/helpers"
+	"github.com/plastikfan/gummy/src/app/command"
+	"github.com/plastikfan/gummy/src/i18n"
+	"github.com/plastikfan/gummy/src/internal/helpers"
 	xi18n "github.com/snivilised/extendio/i18n"
 	"github.com/snivilised/extendio/xfs/utils"
 
@@ -38,7 +38,7 @@ var _ = Describe("WidgetCmd", Ordered, func() {
 			uo.From = xi18n.LoadFrom{
 				Path: l10nPath,
 				Sources: xi18n.TranslationFiles{
-					i18n.ArcadiaSourceID: xi18n.TranslationSource{
+					i18n.GummySourceID: xi18n.TranslationSource{
 						Name: "pixa",
 					},
 

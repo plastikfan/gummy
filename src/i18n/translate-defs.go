@@ -2,10 +2,10 @@ package i18n
 
 // TODO: Should be updated to use url of the implementing project,
 // so should not be left as arcadia.
-const ArcadiaSourceID = "github.com/snivilised/arcadia"
+const GummySourceID = "github.com/plastikfan/gummy"
 
-type arcadiaTemplData struct{}
+type gummyTemplData struct{}
 
-func (td arcadiaTemplData) SourceID() string {
-	return ArcadiaSourceID
+func (td gummyTemplData) SourceID() string {
+	return GummySourceID
 }

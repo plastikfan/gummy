@@ -1,7 +1,7 @@
 package log
 
 import (
-	"github.com/snivilised/arcadia/src/internal/log"
+	"github.com/plastikfan/gummy/src/internal/log"
 )
 
 type Logger interface {

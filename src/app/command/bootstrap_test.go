@@ -3,8 +3,8 @@ package command_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/snivilised/arcadia/src/app/command"
-	"github.com/snivilised/arcadia/src/internal/helpers"
+	"github.com/plastikfan/gummy/src/app/command"
+	"github.com/plastikfan/gummy/src/internal/helpers"
 	"github.com/snivilised/extendio/xfs/utils"
 
 	"golang.org/x/text/language"

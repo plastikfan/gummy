@@ -5,9 +5,9 @@ package command
 
 const (
 	AppEmoji        = "🦄"
-	ApplicationName = "arcadia"
+	ApplicationName = "gummy"
 	RootPsName      = "root-ps"
-	SourceID        = "github.com/snivilised/arcadia"
+	SourceID        = "github.com/plastikfan/gummy"
 )
 
 func Execute() error {
